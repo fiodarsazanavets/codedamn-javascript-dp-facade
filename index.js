@@ -7,7 +7,7 @@ var accountCategoryService = new AccountCategoryService();
 var accountDataService = new AccountDataService();
 var productDataService = new ProductsDataService();
 
-var accounts = this.#accountDataService.getAccounts();
+var accounts = accountDataService.getAccounts();
 var accountId = 0;
 
 for (var i = 0; i < accounts.length; i++) {
